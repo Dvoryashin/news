@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    width: 20%;
+    display: inline-block;
+    color: #ff8750;
+}
+a{
+    text-decoration: none;
+    color: #0a9b4d;
+}
+.cont, .pobl, .brand{
+    position: relative;
+    margin-top: 8vw;
+    font-size: 4rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.brand-foto{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -3;
+    width: 100vw;
+    height: 90vh;
+}
+main{
+    position: relative;
+    z-index: -5;
+    width: 100vw;
+    height: 360vh;
+    background-color: #b8d5cf;
+}
+.article1{
+    position: relative;
+    top: 20vw;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: white;
+    border-radius: 0.5vw;
+}
+article{
+    position: relative;
+    padding: 0.1vw;
+    top: 20vw;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: white;
+    border-radius: 0.5vw;
+}
+.zagolovok{
+    font-size: 2vw;
+    position: relative;
+    margin: -19vw 0 0 -8vw;
+}
+.zagolovok2{
+    font-size: 2vw;
+    position: relative;
+    margin: 3vw 0 0 0vw;
+}
+.zagolovok3{
+    font-size: 2vw;
+    position: relative;
+    margin: 3vw 0 0 2vw;
+}
+.zagolovok4{
+    font-size: 2vw;
+    position: relative;
+    margin: 3vw 0 0 2vw;
+}
+.avtor-vremya{
+    color: grey;
+    position: relative;
+    margin: 1vw 0 0 0;
+}
